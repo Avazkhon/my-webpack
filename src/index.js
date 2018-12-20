@@ -1,20 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Footer from './footer/footer.js'
-import Content from './content/content.js'
-
-function Conteiner () {
-	return (
-		<div className='conteiner'>
-			{Footer()}
-			{Content()}
-		</div>
-	)
-};
+const Title = 'Update My Minimal React Webpack Babel Setup';
 
 ReactDOM.render(
-  Conteiner(),
+  <Title />,
   document.getElementById('app')
 );
 
